@@ -1,0 +1,2 @@
+C:\Users\Gurudutt Durgadas\OneDrive\Documents\VR Unity Works\HomeWork01\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Gurudutt Durgadas\OneDrive\Documents\VR Unity Works\HomeWork01\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
