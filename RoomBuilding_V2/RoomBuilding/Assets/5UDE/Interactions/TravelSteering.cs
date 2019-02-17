@@ -71,7 +71,7 @@ public class TravelSteering : MonoBehaviour {
         {
             
             // If the joystick is pressed forward and the button is pressed
-            if (joystick.GetAxis().y > 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            if (joystick.GetAxis().y >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
                 // Change state to steering forward
                 state = SteeringState.SteeringForward;
@@ -85,7 +85,7 @@ public class TravelSteering : MonoBehaviour {
             }
             
             // If the joystick is pressed rightward and the button is pressed
-            else if (joystick.GetAxis().x > 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().x >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering leftward
@@ -129,7 +129,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed rightward and the button is pressed
-            else if (joystick.GetAxis().x > 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().x >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering leftward
@@ -167,7 +167,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed forward and the button is pressed
-            else if (joystick.GetAxis().y > 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().y >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering forward
@@ -175,7 +175,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed rightward and the button is pressed
-            else if (joystick.GetAxis().x > 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().x >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering leftward
@@ -183,7 +183,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed leftward and the button is pressed
-            else if (joystick.GetAxis().x < 0.0f && button.GetPress())
+            else if (joystick.GetAxis().x < 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering leftward
@@ -219,7 +219,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed forward and the button is pressed
-            else if (joystick.GetAxis().y > 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().y >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering forward
@@ -263,7 +263,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed forward and the button is pressed
-            else if (joystick.GetAxis().y > 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().y >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) > Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering forward
@@ -271,7 +271,7 @@ public class TravelSteering : MonoBehaviour {
             }
 
             // If the joystick is pressed rightward and the button is pressed
-            else if (joystick.GetAxis().x > 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
+            else if (joystick.GetAxis().x >= 0.0f && (Mathf.Abs(joystick.GetAxis().y) < Mathf.Abs(joystick.GetAxis().x)) && button.GetPress())
             {
 
                 // Change state to steering leftward
